@@ -1,11 +1,11 @@
 import React from "react";
 import Right from "./components/right";
-import Left from "./components/left";
+import LeftSideMenu from "./components/leftSideMenu/leftSideMenu";
 import "./index.scss"
 
 function App() {
   return <div className={"mainWin"}>
-      <Left/>
+      <LeftSideMenu/>
       <Right/>
   </div>;
 }

@@ -46,12 +46,18 @@ table {
 }
 
 /*main styles*/
+/* можно использовать
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
 body{
   background-color: #000;
   color: #fff;
+  font-family: 'Kanit', sans-serif;
 }
 
 /*styles for app.tsx (может лучше перенести)*/
 .mainWin{
   display: flex;
+  padding: 10px 10px 0;
 }
