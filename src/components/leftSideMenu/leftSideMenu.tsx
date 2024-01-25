@@ -1,10 +1,13 @@
 import React from 'react';
-import MainSearchMenu from "../mainSearchMenu/mainSearchMenu";
 import styles from "./leftSideMenu.module.scss"
+import MainSearchMenu from "../mainSearchMenu/mainSearchMenu";
+import MediaLibrary from "../mediaLibrary/mediaLibrary";
+
 function LeftSideMenu() {
   return (
     <div className={styles.fullBlock}>
       <MainSearchMenu/>
+      <MediaLibrary/>
     </div>
   );
 }

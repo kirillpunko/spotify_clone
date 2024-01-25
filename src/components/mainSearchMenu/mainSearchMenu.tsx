@@ -4,7 +4,7 @@ import styles from "./mainSearchMenu.module.scss"
 const MainSearchMenu = () => {
     return (
         <ul className={styles.mainSearchBlock}>
-            <li className={styles.blockLines}>
+            <li className={styles.blockLines+" "+styles.active}>
                 <i className="fa-solid fa-house"></i>
                 <a>Главная</a>
             </li>

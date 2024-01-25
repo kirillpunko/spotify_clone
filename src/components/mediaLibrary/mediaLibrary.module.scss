@@ -1,0 +1,55 @@
+.mediaLibraryBlock{
+  height: 80%;
+  background-color: rgba(28, 28, 28, 0.5);
+  border-radius: 10px;
+  flex-grow: 2;
+  padding: 15px;
+  color: darkgray;
+}
+.mediaLibraryTitle{
+  display: flex;
+  justify-content: space-between;
+  div{
+    font-weight: bold;
+  }
+  i{
+    font-size: 25px;
+    margin: 0 15px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+}
+.mediaLibrary:hover{
+  color: white;
+}
+.mediaLibrary{
+  display: flex;
+  cursor: pointer;
+  line-height: 25px;
+}
+.iconBlock {
+  i {
+    position: relative;
+    transition: opacity 0.3s ease;
+    &:hover{
+      color: white;
+    }
+  }
+}
+.backgroundHover{
+  position: absolute;
+  opacity: 0;
+  background-color: rgb(55, 55, 55);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -4.5px;
+  top: -2.5px;
+  z-index: 0;
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 0.3;
+  }
+}
