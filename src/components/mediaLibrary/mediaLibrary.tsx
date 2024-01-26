@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from "./mediaLibrary.module.scss"
+import SortMediaLibraryTags from "../SortMediaLibraryTags/sortMediaLibraryTags";
+import MediaLibrarySearchLine from "../mediaLibrarySearchLine/mediaLibrarySearchLine";
 const MediaLibrary = () => {
     return (
         <div className={styles.mediaLibraryBlock}>
@@ -13,6 +15,8 @@ const MediaLibrary = () => {
                     <i className="fa-solid fa-arrow-right"><div className={styles.backgroundHover}></div></i>
                 </div>
             </div>
+            <SortMediaLibraryTags/>
+            <MediaLibrarySearchLine/>
         </div>
     );
 };
