@@ -55,7 +55,9 @@ body{
   color: #fff;
   font-family: 'Kanit', sans-serif;
 }
-
+.show{
+  display: block;
+}
 /*styles for app.tsx (может лучше перенести)*/
 .mainWin{
   display: flex;
