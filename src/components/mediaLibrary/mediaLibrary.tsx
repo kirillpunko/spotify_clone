@@ -2,6 +2,8 @@ import React from 'react';
 import styles from "./mediaLibrary.module.scss"
 import SortMediaLibraryTags from "../SortMediaLibraryTags/sortMediaLibraryTags";
 import MediaLibrarySearchLine from "../mediaLibrarySearchLine/mediaLibrarySearchLine";
+import MediaList from "../mediaList/mediaList";
+
 const MediaLibrary = () => {
     return (
         <div className={styles.mediaLibraryBlock}>
@@ -17,6 +19,7 @@ const MediaLibrary = () => {
             </div>
             <SortMediaLibraryTags/>
             <MediaLibrarySearchLine/>
+            <MediaList/>
         </div>
     );
 };
